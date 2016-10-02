@@ -1,0 +1,19 @@
+Download the dataset from this link: http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-1K.html
+
+
+1) For 1000000 rows of original datatset and preprocessing:
+
+head -n 1000000 userid-timestamp-artid-artname-traid-traname.tsv > temp.tsv
+
+cat temp.tsv | sed 's/\"//g'|sed "s/'//g" > clean.tsv
+
+cat clean.tsv | sort -k 2 > clean_sorted.tsv
+
+
+
+
+1) For all rows of original datatset and preprocessing:
+
+cat userid-timestamp-artid-artname-traid-traname.tsv | sed 's/\"//g'|sed "s/'//g" > clean_full.tsv
+
+cat clean_full.tsv | sort -k 2 > clean_full_sorted.tsv

@@ -1,0 +1,25 @@
+Vector X: [
+1.0, 2.0, 
+]
+Vector Y: [
+3.0, 4.0, 
+]
+
+Angle between X and Y: 0.17985349979247847 rad
+
+
+Approximations 1: 
+
+Angle approximation at iteration 10 is: 0.0 rad
+Angle approximation at iteration 50 is: 0.18849555921538774 rad
+Angle approximation at iteration 100 is: 0.12566370614359185 rad
+Angle approximation at iteration 200 is: 0.1570796326794898 rad
+Angle approximation at iteration 500 is: 0.17592918860102857 rad
+Angle approximation at iteration 1000 is: 0.1539380400259 rad
+Angle approximation at iteration 2000 is: 0.16336281798666938 rad
+Angle approximation at iteration 5000 is: 0.18095573684677205 rad
+Angle approximation at iteration 10000 is: 0.17278759594743878 rad
+Angle approximation at iteration 20000 is: 0.1749867108049514 rad
+Angle approximation at iteration 50000 is: 0.17969909978533627 rad
+Angle approximation at iteration 80000 is: 0.1799739891425254 rad
+Angle approximation at iteration 100000 is: 0.17985617941801574 rad
