@@ -1,3 +1,3 @@
-# data science and big data
+# Data Science and Big Data
 
 Source code for locality sensitive hashing, document deduplication and music recommender based hadoop-cascadig.
